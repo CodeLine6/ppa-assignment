@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button } from './ui/button'
+import { Button } from '../ui/button'
 import { FaArrowRightLong } from 'react-icons/fa6'
 
 function Testimonial() {

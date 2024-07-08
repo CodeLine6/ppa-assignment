@@ -1,12 +1,12 @@
-import Clients from "@/components/Clients";
-import Fold3 from "@/components/Fold3";
-import Fold5 from "@/components/Fold5";
-import Hero from "@/components/Hero";
-import Prefooter from "@/components/Prefooter";
-import RecentBlogs from "@/components/RecentBlogs";
-import Statistics from "@/components/statistics";
-import SuitableFor from "@/components/SuitableFor";
-import Testimonial from "@/components/Testimonial";
+import Clients from "@/components/sections/Clients";
+import Fold3 from "@/components/sections/Fold3";
+import Fold5 from "@/components/sections/Fold5";
+import Hero from "@/components/sections/Hero";
+import Prefooter from "@/components/sections/Prefooter";
+import RecentBlogs from "@/components/sections/RecentBlogs";
+import Statistics from "@/components/sections/statistics";
+import SuitableFor from "@/components/sections/SuitableFor";
+import Testimonial from "@/components/sections/Testimonial";
 
 export default function Home() {
   return (

@@ -9,13 +9,14 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Nexcent",
   icons: {
-    icon: '/favicon.svg', // /public path
+    icon: 'favicon.svg', // /public path
   },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <link rel="icon" href="/favicon.svg" sizes="any" />
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"

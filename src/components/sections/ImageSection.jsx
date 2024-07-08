@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import { Button } from './ui/button'
+import { Button } from '../ui/button'
 
 function ImageSection({ Image, Title, Description, cta }) {
     return (

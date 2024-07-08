@@ -6,7 +6,7 @@ export default function IconStat({ path, numericValue, subtitle }) {
     const [count, setCount] = useState(0);
     const duration = 4000; // 4 seconds
 
-    useEffect(() => {
+    /* useEffect(() => {
         let startValue = 0;
         const interval = Math.floor(
             duration / (numericValue - 0));
@@ -27,13 +27,13 @@ export default function IconStat({ path, numericValue, subtitle }) {
         return () => {
             clearInterval(counter);
         };
-    }, [numericValue]);
+    }, [numericValue]); */
     return (
 
         <div className="flex items-center gap-4" >
             <img src={path} className="w-12" />
             <div className="grid gap-1">
-                <h3 class="text-[28px] leading-[36px] font-bold text-[#4D4D4D] dark:text-white stat"><span >{count}</span></h3>
+                <h3 class="text-[28px] leading-[36px] font-bold text-[#4D4D4D] dark:text-white stat"><span >{numericValue}</span></h3>
                 <p class="text-base text-[#717171] dark:text-[#ababab]">{subtitle}</p>
             </div>
         </div>

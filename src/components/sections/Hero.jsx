@@ -6,7 +6,7 @@ import {
     CarouselDots
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay"
-import { Button } from "./ui/button"
+import { Button } from "../ui/button"
 
 function Hero() {
     return (
