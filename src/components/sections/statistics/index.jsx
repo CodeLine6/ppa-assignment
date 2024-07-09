@@ -50,7 +50,7 @@ function Statistics() {
                     <h2 className='text-4xl	leading-[44px] font-semibold text-[#4D4D4D] dark:text-white pb-2'>Helping a local <br className='hidden lg:inline' /><span className='text-[#4CAF4F]'>business reinvent itself</span></h2>
                 </div>
 
-                <div class="grid grid-cols-2 grid-rows-2 md:ml-auto md:w-[540px] md:mr-0 mx-auto gap-10" ref={statRef}>
+                <div class="grid grid-rows-4 sm:grid-cols-2 sm:grid-rows-2 md:ml-auto md:w-[540px] md:mr-0 mx-auto gap-10" ref={statRef}>
                     <IconStat path="/assets/stats/1.png" numericValue="2245341" subtitle="Members" />
                     <IconStat path="/assets/stats/2.png" numericValue="46328" subtitle="Clubs" />
                     <IconStat path="/assets/stats/3.svg" numericValue="828867" subtitle="Event Bookings" />
