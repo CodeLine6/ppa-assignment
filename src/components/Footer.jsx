@@ -12,7 +12,7 @@ export default function Component() {
     return (
         <footer className="bg-[#263238] text-[#F5F7FA] p-6 md:p-12 md:py-16">
             <div className="container mx-auto grid grid-cols-1 sm:grid-cols-3 md:grid-cols-[1fr_0.5fr_0.5fr_1fr] gap-8">
-                <div className="grid gap-4">
+                <div className="grid gap-8 sm:gap-4">
                     <Logo className="w-36" />
                     <div>
                         <p>Copyright © 2024 Nexcent ltd.</p>

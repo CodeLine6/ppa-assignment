@@ -26,7 +26,7 @@ function Hero() {
                 <CarouselContent>
                     <CarouselItem>
                         <div class="text-gray-600 body-font dark:text-gray-400">
-                            <div class="container mx-auto flex px-5 py-9 sm:py-24 md:flex-row flex-col items-center">
+                            <div class="container mx-auto flex flex-col-reverse items-center px-5 py-9 sm:py-24 md:flex-row ">
                                 <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                                     <h2 class="title-font text-4xl lg:text-6xl leading-tight mb-4 font-medium text-[#4D4D4D] dark:text-white">Lessons and insights
                                         <br /><span className="text-[#4CAF4F]">from 8 years</span>
@@ -45,7 +45,7 @@ function Hero() {
                     </CarouselItem>
                     <CarouselItem>
                         <div class="text-gray-600 body-font dark:text-gray-400">
-                            <div class="container mx-auto flex px-5 py-9 sm:py-24 md:flex-row flex-col items-center">
+                            <div class="container mx-auto flex flex-col-reverse items-center px-5 py-9 sm:py-24 md:flex-row">
                                 <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                                     <h2 class="title-font text-4xl lg:text-6xl leading-tight mb-4 font-medium text-[#4D4D4D] dark:text-white">Lessons and insights
                                         <br /><span className="text-[#4CAF4F]">from 8 years</span>
@@ -64,7 +64,7 @@ function Hero() {
                     </CarouselItem>
                     <CarouselItem>
                         <div class="text-gray-600 body-font dark:text-gray-400">
-                            <div class="container mx-auto flex px-5 py-9 sm:py-24 md:flex-row flex-col items-center">
+                            <div class="container mx-auto flex flex-col-reverse items-center px-5 py-9 sm:py-24 md:flex-row">
                                 <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                                     <h2 class="title-font text-4xl lg:text-6xl leading-tight mb-4 font-medium text-[#4D4D4D] dark:text-white">Lessons and insights
                                         <br /><span className="text-[#4CAF4F]">from 8 years</span>
